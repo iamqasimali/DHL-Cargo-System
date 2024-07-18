@@ -18,7 +18,7 @@ const Sidebar = () => {
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
         <>
-          <div className="flex flex-col w-64 h-full">
+          <div className="flex flex-col w-64 h-full ">
             <div className="flex items-center h-16 px-4 bg-gray-900">
               <img
                 className="w-auto h-8"

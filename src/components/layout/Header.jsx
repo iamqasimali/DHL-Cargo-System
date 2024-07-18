@@ -3,9 +3,9 @@ import { SearchIcon, BellIcon, ChevronDownIcon } from '@heroicons/react/outline'
 
 const Header = () => {
   return (
-    <header className="bg-white shadow-md p-4 flex justify-between items-center">
-      <div className="relative">
-        <input type="text" className="border rounded-md p-2" placeholder="Search..." />
+    <header className="w-full bg-white shadow-md p-4 flex justify-between items-center">
+      <div className="relative w-4/6">
+        <input type="text" className="border rounded-md p-2 w-full" placeholder="Search..." />
         <span className="absolute inset-y-0 right-0 flex items-center pr-3">
           <SearchIcon className="w-5 h-5 text-gray-500" />
         </span>
