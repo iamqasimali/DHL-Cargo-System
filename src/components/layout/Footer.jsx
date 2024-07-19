@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-white shadow-md p-4">
-      <p className="text-center text-gray-500">&copy; 2024 Your Company</p>
+      <p className="text-center font-semibold text-black">&copy; 2024 DHL Cargo System</p>
     </footer>
   );
 };

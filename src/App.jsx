@@ -1,33 +1,19 @@
-import { useState } from "react";
-
-import "./App.css";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Dashboard from "./components/pages/Dashboard";
+import Task from './components/pages/Task';
+import Table from './components/pages/Table';
 
-
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
-    <Dashboard/>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/task" element={<Task />} />
+        <Route path="/table" element={<Table />} />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
-
-
-/*import React from 'react';
-import Dashboard from '../DashboardCards';
-
-const App = () => {
-  return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
-      <Dashboard />
-    </div>
-  );
-};
-
-export default App;
-
-
-*/

@@ -6,7 +6,7 @@ const customers = [
   { id: 3, name: 'Bob Johnson', email: 'bob@example.com', phone: '345-678-9012', status: 'Active' },
 ];
 
-const CustomerTable = () => {
+const CustomerList = () => {
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
       <h2 className="text-xl font-semibold mb-4">Customer List</h2>
@@ -42,4 +42,4 @@ const CustomerTable = () => {
   );
 };
 
-export default CustomerTable;
+export default CustomerList;

@@ -18,7 +18,7 @@ const Header = () => {
         <div className="relative">
           <button className="flex items-center space-x-2">
             <img className="w-8 h-8 rounded-full" src="https://via.placeholder.com/150" alt="User" />
-            <span className="hidden md:block">John Doe</span>
+            <span className="hidden md:block">Abdullah</span>
             <ChevronDownIcon className="w-4 h-4" />
           </button>
           <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg hidden">
